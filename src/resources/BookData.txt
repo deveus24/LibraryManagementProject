@@ -1,0 +1,10 @@
+123dfcasdf34234;The Great Gatsby;F. Scott Fitzgerald;Scribner;180;true
+abc9234xyz09812;To Kill a Mockingbird;Harper Lee;J.B. Lippincott & Co.;281;false
+9kdf34jfd82kfj21;1984;George Orwell;Secker & Warburg;328;true
+lmn98765qrs43210;Pride and Prejudice;Jane Austen;T. Egerton;279;true
+67wejkh28sdlkfjw;The Catcher in the Rye;J.D. Salinger;Little, Brown and Company;214;false
+hjkl34509fdsoij2;Moby Dick;Herman Melville;Harper & Brothers;635;true
+12bvzxc4359asd12;War and Peace;Leo Tolstoy;The Russian Messenger;1225;false
+aswe342094nvcxz1;The Hobbit;J.R.R. Tolkien;George Allen & Unwin;310;true
+mnxvc98709dfkjq2;Brave New World;Aldous Huxley;Chatto & Windus;311;true
+aksl93248dfasjlq3;The Alchemist;Paulo Coelho;HarperOne;208;false
