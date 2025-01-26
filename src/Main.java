@@ -22,25 +22,30 @@ public class Main
             switch(operation)
             {
                 case "1" ->
-                {
                     InOutUtilities.printTable(books);
-                }
 
                 case "2" ->
-                {
                     InOutUtilities.printTable(allAvailableBooks);
-                }
 
                 case "3" ->
-                {
                     TaskUtilities.addANewBook(books);
-                }
 
                 case "4" ->
                 {
                     Book foundBook = TaskUtilities.findBookByTitle(books);
                     InOutUtilities.printFoundBook(foundBook);
                 }
+                case "5" ->
+                    TaskUtilities.removeBookByName(books);
+
+                case "6" ->
+                    TaskUtilities.totalNumberOfBooksInTheLibrary(books);
+
+                case "7" ->
+                    TaskUtilities.totalNumberOfAvailableBooksInTheLibrary(books);
+
+                case "8" ->
+                    InOutUtilities.printSortedBooksByNumberOfPages(books);
             }
             InOutUtilities.printMainMenuOptions();
         }

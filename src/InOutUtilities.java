@@ -38,6 +38,10 @@ public class InOutUtilities
         System.out.println("2. Show all available books");
         System.out.println("3. Add a new book");
         System.out.println("4. Find a book by title");
+        System.out.println("5. Remove a book by it's name");
+        System.out.println("6. See the total number of books in the library");
+        System.out.println("7. See the total number of available books");
+        System.out.println("8. Show sorted books by number of pages");
     }
 
     public static void printTableHeader()
@@ -68,7 +72,7 @@ public class InOutUtilities
         {
             System.out.println("Found book:");
             printTableHeader();
-            System.out.println(foundBook.toString());
+            System.out.println(foundBook);
             printTableFooter();
         }
         else
@@ -83,6 +87,12 @@ public class InOutUtilities
         printTableHeader();
         System.out.println(newBook.toString());
         printTableFooter();
+    }
+
+    public static void printSortedBooksByNumberOfPages(List<Book> books)
+    {
+        TaskUtilities.sortBooksByNumberOfPages(books);
+        printTable(books);
     }
 
 }
